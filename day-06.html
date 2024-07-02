@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Day05</title>
+        <title>Day06(TABLES / INPUTS)</title>
         <style>
-            
+            table ,th,td{
+                border-collapse: collapse; 
+                border: 2px solid black;
+                text-align: center;
+            }
+            table.center{
+                margin-left: auto;
+                margin-right: auto;
+            }
         </style>
     </head>
     <body>
-        <p>hari krishna</p>
+        <table class="center">
+            <tr>
+                <th>S.No.</th>
+                <th>COLLEGE / SCHOOL</th>
+                <th>GRADE</th>
+                <th>COMPETITVE</th>
+                <th>DURATIONS</th>
+                <th> YEARS</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>SRI SAI NATH SCHOOL</td>
+                <td colspan="2">Nil</td>
+                <td colspan="2">4 YEARS</td>
+                <!-- <td></td> -->
+            </tr>
+        </table>
     </body>
 </html>
